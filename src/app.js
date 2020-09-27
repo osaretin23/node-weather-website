@@ -106,5 +106,5 @@ app.get('*', (req,res)=>{
 
 //start the server up and allow it to listen on 3000
 app.listen(port, () => {
-    console.log("Server is up on port " + port)
+    console.log("Server is up on port " + port);
 })
